@@ -39,10 +39,6 @@ class ExtendedTitleView : UIView {
         self.imageView.image = UIImage.init(named: named)
     }
     
-    func setDetail(_ detail: String) {
-        self.detailLabel.text = detail
-    }
-    
     func initView(_ title: String, imageName: String, color: UIColor) {
         self.titleLabel.text = title
         self.imageView.image = UIImage.init(named: imageName)
